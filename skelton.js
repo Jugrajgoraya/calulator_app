@@ -2,7 +2,7 @@
 module.exports = 
 "<body>" +
     "<h1>MY CALCULATOR</h1>" +
-    "<form >" +
+    "<form action= '/view_image' method ='POST'>" +
         "<input type='text' name='firstNumber'>" +
         "<select name ='select'>" +
             "<option >+</option>" +
@@ -11,7 +11,10 @@ module.exports =
             "<option >/</option>" +
         "</select>" +
         "<input type='text' name='secondNumber'>" +"<br>" +
+        "<input type ='text' name='URL' >" +"<br>" +
         "<input type='submit' name ='submit'>" +  
+
+       
     "</form>" +
 "</body>" 
 

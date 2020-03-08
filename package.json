@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "extract-main-text": "^1.0.3"
+    "extract-main-text": "^1.0.3",
+    "query-string": "^6.11.1",
+    "string": "^3.3.3"
   }
 }
